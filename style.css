@@ -1,3 +1,43 @@
+.container{
+  width: 100%;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.hero{
+  border: 2px solid rgb(211,211,211);
+  padding: 10px;
+  text-align:center;
+  border-radius: 10px;
+}
+
+.score{
+  font-size: 30px;
+}
+
+#hname{
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
   margin-left : 80px;
   font-size : 18px;
